@@ -51,6 +51,7 @@
 
   .description {
     margin: 0;
+    color: #000000;
   }
 
   .visually-hidden {
@@ -166,14 +167,236 @@
     letter-spacing: 2px;
   }
 
+  .promo-list {
+    display: flex;
+  }
+
+  .promo-item {
+    display: flex;
+  }
+
+
   .services {
     background-color: #F1F5F7;
   }
 
-  .footer-wrapper {
+  .services-headline {
+    font-family: "Fira Sans";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #293449;
+    text-align: center;
+    margin: 0;
+    padding-top: 52px;
+    padding-bottom: 30px;
+  }
+
+  .services-description {
+    font-size: 18px;
+    line-height: 24px;
+    color: #293449;
+    padding: 0 308px 65px 306px;
+  }
+
+  .services-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .services-item {
+    width: 370px;
+    height: 382px;
+    background-color: #ffffff;
+    margin: 0 30px 52px 0;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+  }
+
+  .services-item:last-child {
+    margin-right: 0;
+  }
+
+  .services-list-icon {
+    margin: 31px 256px 46px 24px;
+  }
+
+  .services-list-headline {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #32425C;
+    text-transform: uppercase;
+    margin: 0 auto 21px 24px;
+  }
+
+  .services-list-description {
+    margin: 0 44px 67px 26px;
+  }
+
+  .info-wrapper {
+    display: flex;
+  }
+
+  .info-banner {
+    width: 549px;
+    height: 306px;
+    margin-right: 120px;
+  }
+
+  .info-headline {
+    font-family: "Fira Sans";
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #293449;
+    margin: 52px 0 23px 0;
+  }
+
+  .info-description-1 {
+    color: #293449;
+    width: 500px;
+    margin-bottom: 24px;
+  }
+
+  .info-description-2 {
+    color: #293449;
+    width: 500px;
+    margin-bottom: 52px;
+  }
+
+  .company-info-link {
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #EE3643;
+    border-radius: 2px;
+    width: 195px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts-banner {
+    margin-bottom: 52px;
+  }
+
+  .contacts-description {
+    color: #293449;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 28px;
+  }
+
+  .footer-top {
     background-color: #32425C;
+    color: #ffffff;
+  }
+
+  .footer-wrapper {
+    display: flex;
+  }
+
+  .footer-logo-link {
+    background-color: #EE3643;
+    width: 224px;
+    height: 52px;
+    display: flex;
+    margin: 0 685px 17px 0;
+  }
+
+  .footer-logo-wrapper {
+    padding: 14px 59px 17px 56px;
+  }
+
+  .footer-description {
+    color: #F3F7F9;
+    margin: 0 0 24px 0;
+  }
+
+  .footer-social-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .footer-social-item {
+    margin-right: 17px;
+  }
+
+  .footer-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .footer-feedback-description {
+    margin: 29px 0 0 0;
+  }
+
+  .footer-email {
+    color: #FFD180;
+    margin-bottom: 29px;
+  }
+
+  .footer-subscription-description {
+    margin: 0;
+  }
+
+  .footer-form-wrapper {
+    display: flex;
+  }
+
+  .subscription-field {
+    width: 233px;
+    height: 40px;
+    font-size: 14px;
+    color: #BDBDBD;
+    padding: 10px 16px 12px 16px;
+    border: 1px solid #63A63E;
+    border-radius: 2px;
+  }
+
+  .footer-subscription-button {
+    width: 40px;
+    height: 40px;
+    background: #63A63E;
+    border-radius: 2px;
+    border: none;
+    padding: 0;
   }
 
   .footer-bottom {
     background-color: #293449;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
   }
+
+  .footer-bottom-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-bottom-description {
+    margin: 20px 0 22px 0;
+  }
+
+  .htmlacademy-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .htamlacademy-link {
+    color: #FFD180;
+    text-decoration: none;
+    margin-left: 3px;
+  }
+
