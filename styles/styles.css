@@ -412,6 +412,65 @@
     margin-right: 53px;
   }
 
+  .filter-headline {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .filter-range {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .filter-prices {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+  }
+
+  .filter-price-input {
+    width: 95px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #F7F3EC;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    color: #293449;
+    font-size: 14px;
+    border-radius: 2px;
+  }
+
+  .separator-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-price-separator {
+    font-size: 14px;
+    color: #293449;
+  }
+
+  .filter-manufacturers {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .filter-power {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .filter-manufacturers-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .catalog-filter {
     margin-bottom: 31px;
   }
