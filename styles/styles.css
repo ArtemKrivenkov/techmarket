@@ -114,6 +114,41 @@
     padding: 12px 57px 16px 55px;
   }
 
+  .header-search-form {
+    color: #FFFFFF;
+  }
+
+  .header-search-field {
+    width: 717px;
+    height: 45px;
+    background-color: #293449;
+    border: none;
+  }
+
+  .header-search-icon {
+    margin-left: 21px;
+  }
+
+  .user-login-button {
+    background-color: #293449;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 101px;
+  }
+
+  .user-login {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F1F5F7;
+    margin-left: 11px;
+  }
+
   .header-user-list {
     list-style-type: none;
     display: flex;
