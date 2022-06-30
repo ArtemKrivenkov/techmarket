@@ -369,6 +369,10 @@
     margin-right: 53px;
   }
 
+  .catalog-filter {
+    margin-bottom: 31px;
+  }
+
   .catalog-filter-group {
     border: none;
     margin: 0;
@@ -473,6 +477,71 @@
     height: 40px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .catalog-item-price-2 {
+    margin-top: 41px;
+  }
+
+  .catalog-paginator-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 436px;
+    margin: 0 auto 53px auto;
+  }
+
+  .catalog-paginator-item {
+    margin-right: 8px;
+  }
+
+  .catalog-paginator-item:nth-child(4) {
+    margin-right: 17px;
+  }
+
+  .catalog-paginator-item:last-child {
+    margin-right: 0;
+  }
+
+  .catalog-paginator-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 45px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #3D546F;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+
+  .catalog-paginator-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 45px;
+    font-weight: 700;
+    border-radius: 2px;
+    color: #3D546F;
+  }
+
+  .show-more-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #EE3643;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 45px;
   }
 
   .services {
