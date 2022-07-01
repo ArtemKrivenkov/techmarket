@@ -742,6 +742,7 @@
     border-radius: 2px;
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   .catalog-item:nth-child(3) {
@@ -772,6 +773,80 @@
     height: 70px;
     right: 0;
   } 
+
+  .catalog-item:hover .catalog-item-action {
+    display: flex;
+  }
+  .catalog-item-action {
+    background-color: #ffffff;
+    width: 216px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.03);
+    margin-left: 27px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+  }
+
+  .catalog-button-action {
+    position: relative;
+    width: 135px;
+    height: 40px;
+    background-color: #63a63e;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .catalog-button-action:hover {
+    background-color: #5fbb2d;
+  }
+
+  .catalog-button-action:active {
+    background-color: #518534;
+    box-shadow: none;
+  }
+
+  .catalog-action-buy-icon {
+    margin-left: 20px;
+    margin-right: 11px;
+  }
+
+  .catalog-action-bookmark {
+    padding: 8px;
+    color: #32425c;
+    background-color: #ffffff;
+    border: 2px solid #63a63e;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catalog-action-bookmark:hover {
+    background-color: #ffffff;
+    border: 2px solid #3D546F;
+  }
+
+  .catalog-action-bookmark:active {
+    background-color: #ffffff;
+    opacity: 0.3;
+  }
 
   .catalog-item-title {
     font-weight: 700;
