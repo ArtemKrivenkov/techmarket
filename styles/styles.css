@@ -532,6 +532,14 @@
     height: 21px;
   }
 
+  .filter-toggle:hover {
+    background-image: url("../images/filter-toggle-hover.svg");
+  }
+
+  .filter-toggle:active {
+    background-image: url("../images/filter-toggle-active.svg");
+  }
+
   .filter-toggle-min {
     left: -1%;
   }
