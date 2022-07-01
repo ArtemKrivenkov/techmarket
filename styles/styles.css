@@ -359,7 +359,7 @@
     margin-right: 30px;
   }
 
-  .slider-1 {
+  .slide-1 {
     width: 770px;
     height: 390px;
     background-image: url("../images/slider-img-1.png");
@@ -736,6 +736,17 @@
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     color: #293449;
+    border: 1px solid #3D546F;
+    border-radius: 2px;
+  }
+
+  .catalog-filter-selection:hover {
+    border: 1px solid #63A63E;
+  }
+
+  .catalog-filter-selection:focus {
+    border: 1px solid #FFBF47;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.15));
   }
 
   .catalog {
@@ -1156,7 +1167,7 @@
     margin-right: 17px;
   }
 
-  .vk-footer-link {
+  .footer-social-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1164,6 +1175,10 @@
     height: 36px;
     background-color: #47556C;
     border-radius: 50%;
+  }
+
+  .footer-social-link:hover {
+    background-color: #293449;
   }
 
   .footer-feedback {
@@ -1179,6 +1194,10 @@
   .footer-email {
     color: #FFD180;
     margin-bottom: 29px;
+  }
+
+  .footer-email:hover {
+    text-decoration: underline;
   }
 
   .footer-subscription-description {
@@ -1234,5 +1253,9 @@
     color: #FFD180;
     text-decoration: none;
     margin-left: 3px;
+  }
+
+  .htamlacademy-link:hover {
+    text-decoration: underline;
   }
 
