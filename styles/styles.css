@@ -209,6 +209,30 @@
     letter-spacing: 2px;
   }
 
+  .user-account-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    color: #F1F5F7;
+  }
+
+  .user-account-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user-account-item:first-child {
+    margin-right: 8px;
+  }
+
+  .user-account-item:nth-child(2) {
+    margin-right: 23px;
+  }
+
   .header-navigation-wrapper {
     background-color: #3D546F;
   }
@@ -807,7 +831,6 @@
     display: flex;
   }
   .catalog-item-action {
-    background-color: #ffffff;
     width: 216px;
     height: 180px;
     position: absolute;
@@ -816,7 +839,7 @@
     align-items: center;
     flex-direction: column;
     display: none;
-    background: #FFFFFF;
+    background: rgba(255, 255, 255, 0.86);
     box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.03);
     margin-left: 27px;
     margin-top: 27px;
@@ -1146,6 +1169,7 @@
     height: 52px;
     display: flex;
     margin: 0 685px 17px 0;
+    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
   }
 
   .footer-logo-wrapper {
