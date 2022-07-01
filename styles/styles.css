@@ -415,6 +415,11 @@
   .filter-headline {
     font-size: 16px;
     text-transform: uppercase;
+    margin: 0;
+  }
+
+  .filter-price-headline {
+    margin-bottom: 9px;
   }
 
   .filter-range {
@@ -427,6 +432,54 @@
     display: flex;
     justify-content: space-between;
     width: 220px;
+    margin-bottom: 39px;
+  }
+
+  .filter-price-range {
+    width: 220px;
+    height: 40px;
+    background-color: #f7f3ec;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-range-wrapper {
+    display: flex;
+    margin: 0 20px 0 20px;
+    flex: 1;
+    height: 20px;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .filter-scale {
+    height: 2px;
+    background-color: #3D546F;
+    flex: 1;
+  }
+
+  .filter-bar {
+    background-color: #5FBB2D;
+    height: 2px;
+  }
+
+  .filter-toggle {
+    position: absolute;
+    top: 0;
+    background-image: url("../images/filter-toggle.svg");
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+  }
+
+  .filter-toggle-min {
+    left: -1%;
+  }
+
+  .filter-toggle-max {
+    left: 62%;
   }
 
   .filter-price-input {
@@ -459,10 +512,8 @@
     margin: 0;
   }
 
-  .filter-power {
-    border: none;
-    padding: 0;
-    margin: 0;
+  .filter-manufacturers-headline {
+    margin-bottom: 16px;
   }
 
   .filter-manufacturers-list {
@@ -471,7 +522,71 @@
     padding: 0;
   }
 
+  .filter-manufacturers-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .filter-manufacturers-item:last-child {
+    margin-bottom: 34px;
+  }
+
+
+  .filter-label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .checkbox-button {
+    margin: 0 15px 0 0;
+  }
+
+  .filter-power {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .filter-power-headline {
+    margin-bottom: 18px;
+  }
+
+  .filter-power-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .filter-power-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  .filter-power-item:last-child {
+    margin-bottom: 45px;
+  }
+
+  .filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 40px;
+    border: 2px solid #3D546F;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #32425C;
+  }
+
   .catalog-filter {
+    margin-top: 33px;
     margin-bottom: 31px;
   }
 

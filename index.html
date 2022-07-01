@@ -164,17 +164,16 @@
         <section class="filter">
             <form class="filter-form" action="#" method="get">
                 <fieldset class="filter-range">
-                    <h3 class="filter-headline">Цена</h3>
-                    <div class="range-scale">
-                        <div class="range-bar">
-                            <button class="range-toggle" type="button">
-                                <span class="visually-hidden">минимальная цена.</span>
-                            </button>
-                            <button class="range-toggle" type="button">
-                                <span class="visually-hidden">максимальная цена.</span>
-                            </button>
+                    <h3 class="filter-headline filter-price-headline">Цена</h3>
+                    <div class="filter-price-range">
+                        <div class="filter-range-wrapper">
+                          <div class="filter-scale">
+                            <div class="filter-bar" style="width: 72%;"></div>
+                          </div>
+                          <div class="filter-toggle filter-toggle-min"></div>
+                          <div class="filter-toggle filter-toggle-max"></div>
                         </div>
-                    </div>
+                      </div>
                     <div class="filter-prices">
                         <input class="filter-price-input" type="number" value="0" min="0" max="50000" name="price-min">
                         <div class="separator-wrapper">
@@ -184,61 +183,40 @@
                     </div>
                 </fieldset>
                 <fieldset class="filter-manufacturers">
-                    <h3 class="filter-headline">производители:</h3>
+                    <h3 class="filter-headline filter-manufacturers-headline">производители</h3>
                     <ul class="filter-manufacturers-list">
                         <li class="filter-manufacturers-item">
-                            <label class="control">
-                                <input class="visually-hidden checkbox-button" type="checkbox" name="bosch" value="bosch" checked>
-                                <span class="square-control-mark"></span>
-                                <span class="manufacturers-label">BOSCH</span>
-                            </label>
+                                <input class="checkbox-button" type="checkbox" name="bosch" value="bosch" checked>
+                                <label class="filter-label">BOSCH</label>
                         </li>
                         <li class="filter-manufacturers-item">
-                            <label class="control">
-                                <input class="visually-hidden checkbox-button" type="checkbox" name="interscol" value="interscol">
-                                <span class="square-control-mark"></span>
-                                <span class="manufacturers-label">ИНТЕРСКОЛ</span>
-                            </label>
+                                <input class="checkbox-button" type="checkbox" name="interscol" value="interscol">
+                                <label class="filter-label">ИНТЕРСКОЛ</label>
                         </li>
                         <li class="filter-manufacturers-item">
-                            <label class="control">
-                                <input class="visually-hidden checkbox-button" type="checkbox" name="makita" value="makita" checked>
-                                <span class="square-control-mark"></span>
-                                <span class="manufacturers-label">MAKIta</span>
-                            </label>
+                                <input class="checkbox-button" type="checkbox" name="makita" value="makita" checked>
+                                <label class="filter-label">MAKIta</label>
                         </li>
                         <li class="filter-manufacturers-item">
-                            <label class="control">
-                                <input class="visually-hidden checkbox-button" type="checkbox" name="dewalt" value="dewalt">
-                                <span class="square-control-mark"></span>
-                                <span class="manufacturers-label">Dewalt</span>
-                            </label>
+                                <input class="checkbox-button" type="checkbox" name="dewalt" value="dewalt">
+                                <label class="filter-label">Dewalt</label>
                         </li>
                         <li class="filter-manufacturers-item">
-                            <label class="control">
-                                <input class="visually-hidden checkbox-button" type="checkbox" name="hitachi" value="hitachi">
-                                <span class="square-control-mark"></span>
-                                <span class="manufacturers-label">Hitachi</span>
-                            </label>
+                                <input class="checkbox-button" type="checkbox" name="hitachi" value="hitachi">
+                                <label class="filter-label">Hitachi</label>
                         </li>
                     </ul>
                 </fieldset>
                 <fieldset class="filter-power">
-                    <h3 class="filter-headline">питание</h3>
+                    <h3 class="filter-headline filter-power-headline">питание</h3>
                     <ul class="filter-power-list">
                         <li class="filter-power-item">
-                            <label class="control">
-                                <input class="visually-hidden checkbox-button" type="checkbox" name="rechargeable" value="rechargeable" checked>
-                                <span class="square-control-mark"></span>
-                                <span class="manufacturers-label">Аккумуляторные</span>
-                            </label>
+                                <input class="checkbox-button" id="rechargeable" type="radio" name="rechargeable" value="rechargeable" checked>
+                                <label class="filter-label">Аккумуляторные</label>
                         </li>
                         <li class="filter-power-item">
-                            <label class="control">
-                                <input class="visually-hidden checkbox-button" type="checkbox" name="plugged" value="plugged">
-                                <span class="square-control-mark"></span>
-                                <span class="manufacturers-label">Сетевые</span>
-                            </label>
+                                <input class="checkbox-button" type="radio" name="plugged" value="plugged">
+                                <label class="filter-label" for="rechargeable">Сетевые</label>
                         </li>
                     </ul>
                 </fieldset>
