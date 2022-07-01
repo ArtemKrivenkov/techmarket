@@ -128,7 +128,7 @@
   }
 
   .header-search-field {
-    width: 717px;
+    width: 664px;
     height: 45px;
     background-color: #293449;
     border: none;
@@ -141,7 +141,7 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    margin-left: 98px;
+    margin-left: 150px;
   }
 
   .user-login {
@@ -152,6 +152,17 @@
     text-transform: uppercase;
     color: #F1F5F7;
     margin-left: 11px;
+  }
+
+  .user-login-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .user-name {
+    color: #F1F5F7;
   }
 
   .header-user-list {
@@ -203,7 +214,6 @@
     display: flex;
     width: 800px;
     color: #FFFFFF;
-    justify-content: space-between;
     padding: 0;
     margin: 0;
   }
@@ -214,7 +224,31 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    background-color: #3D546F;
+    height: 69px;
+    cursor: pointer;
   }
+
+  .header-nav-link {
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+
+  .nav-first-link {
+    margin-left: 0;
+  }
+
+  .header-nav-item:hover {
+    background-color: #32425C;
+    color: #C5C5C5;
+  }
+
+  .header-nav-item:active {
+    background-color: #32425C;
+    color: #FFFFFF;
+  } 
 
   .promo {
     display: flex;
@@ -363,6 +397,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 2px;
@@ -373,6 +408,14 @@
     height: 45px;
     border-radius: 2px;
     margin: 74px auto 10px 51px;
+  }
+
+  .slider-link:hover {
+    background-color: #CA2C37;
+  }
+
+  .slider-link:active {
+    background-color: #BA2732;
   }
 
   .slider-pagination-list {
@@ -795,6 +838,14 @@
   
   .catalog-item-price-2 {
     margin-top: 41px;
+  }
+
+  .catalog-item-price:hover {
+    background-color: #CA2C37;
+  }
+
+  .catalog-item-price:active {
+    background-color: #BA2732;
   }
 
   .catalog-paginator-list {
