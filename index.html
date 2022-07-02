@@ -56,6 +56,49 @@
                             width="16" height="16">
                         <span class="user-login">войти</span>
                     </button>
+                    <div class="nav-user-wrapper">
+                        <h2 class="nav-user-title nav-user-title-2">Личный кабинет</h2>
+                        <button class="closed-button" type="button" aria-label="Закрыть">
+                          <svg class="close-icon" focusable="false" aria-hidden="true" width="20" height="20" fill="none"
+                               xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20Zm0-1.82a8.18 8.18 0 1 0 0-16.36 8.18 8.18 0 0 0 0 16.36Zm-3-3.9 3-3 3 3 1.28-1.29-3-2.99 3-3-1.29-1.28-2.99 3-3-3-1.28 1.29 3 2.99-3 3 1.29 1.28Z"
+                                  fill="#C4C4C4"/>
+                          </svg>
+                        </button>
+                        <form class="nav-user-form" method="post" action="#">
+                          <label class="visually-hidden" for="nav-user-login">Введите логин</label>
+                          <input class="field nav-user-field" type="text" name="nav-user-login" id="nav-profile-login"
+                                 placeholder="Логин">
+                          <label class="visually-hidden" for="nav-profile-password">Введите пароль</label>
+                          <input class="user-field nav-user-field" type="password" name="nav-user-password"
+                                 id="nav-user-password" placeholder="Пароль">
+                        </form>
+                        <div class="user-inner-wrapper">
+                          <label class="control user-control">
+                            <input class="visually-hidden checkbox-button" type="checkbox" name="memorise" id="memorise"
+                                   value="remember-me" checked>
+                            <span class="control-mark"></span>
+                            <span class="input-label profile-label">Запомнить меня</span>
+                          </label>
+                          <a class="user-link input-label" href="#">Забыл пароль</a>
+                        </div>
+                        <ul class="list inner-button-list">
+                          <li class="inner-button-item">
+                            <button class="inner-button" type="submit">
+                              <svg class="nav-user-icon inner-button-enter" focusable="false" aria-hidden="true" width="16"
+                                   height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M7 14.39H2v-12h5v-2H0v16h7v-2Zm4.7-1.71L8.47 9.44H16v-2H8.46l3.25-3.25-1.42-1.41-4.95 4.95-.7.7.7.71 4.95 4.95 1.42-1.41Z"/>
+                              </svg>
+                              Войти
+                            </button>
+                          </li>
+                          <li class="inner-button-item">
+                            <a class="registration-link inner-button-link" href="#">Регистрация</a>
+                          </li>
+                        </ul>
+                      </div>
                 </div>
             </div>
         </div>
