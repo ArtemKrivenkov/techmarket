@@ -152,6 +152,7 @@
     align-items: center;
     justify-items: center;
     margin-left: 150px;
+    cursor: pointer;
   }
 
   .user-login {
@@ -181,6 +182,10 @@
     align-items: center;
     margin: 0 0 0 118px;
     padding: 0;
+  }
+
+  .header-user-item {
+    cursor: pointer;
   }
 
   .header-user-item:first-child {
@@ -362,6 +367,7 @@
     color: #FFFFFF;
     font-size: 14px;
     margin: 0 0 33px 25px;
+    text-decoration: none;
   }
 
   .promo-link-img {
@@ -420,11 +426,13 @@
   .slider-arrow-left {
     border: none;
     background-color: transparent;
+    cursor: pointer;
   }
 
   .slider-arrow-right {
     border: none;
     background-color: transparent;
+    cursor: pointer;
   }
 
   .slider-link {
@@ -472,6 +480,7 @@
     border: 0;
     background-color: transparent;
     padding: 0;
+    cursor: pointer;
   }
 
   .goods-headline {
@@ -740,6 +749,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #32425C;
+    cursor: pointer;
   }
 
   .catalog-filter {
@@ -840,7 +850,6 @@
     flex-direction: column;
     display: none;
     background: rgba(255, 255, 255, 0.86);
-    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.03);
     margin-left: 27px;
     margin-top: 27px;
     margin-bottom: 27px;
@@ -937,6 +946,7 @@
     height: 40px;
     margin-right: auto;
     margin-left: auto;
+    cursor: pointer;
   }
 
   .catalog-item-price::before {
@@ -1141,6 +1151,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
   }
 
   .contacts-banner {
@@ -1249,6 +1260,7 @@
     border-radius: 2px;
     border: none;
     padding: 0;
+    cursor: pointer;
   }
 
   .footer-bottom {
